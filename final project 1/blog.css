@@ -1,0 +1,45 @@
+/* ====== Blog Page Styles ====== */
+.blog-section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.blog-post {
+  background-color: #fff;
+  border-left: 5px solid #a67c52;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.blog-post h2 {
+  margin-top: 0;
+  color: #6b4c35;
+  font-size: 1.5rem;
+}
+
+.blog-date {
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-size: 1.05rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.blog-post a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #a67c52;
+  font-weight: bold;
+}
+
+.blog-post a:hover {
+  text-decoration: underline;
+}

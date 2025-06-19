@@ -1,0 +1,137 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f5f2;
+  color: #333;
+  line-height: 1.6;
+  padding-bottom: 60px;
+}
+
+/* Header */
+header {
+  background-color: #6b4c35;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+  background-color: #8a614d;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffeabf;
+}
+
+/* Main Content */
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Section titles */
+section h2 {
+  color: #6b4c35;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #d9bfa9;
+  padding-bottom: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #6b4c35;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Gallery Grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+/* Blog Cards */
+.blog-post {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #a67c52;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Form Styles */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #a67c52;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: #8a614d;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  footer {
+    position: relative;
+  }
+}

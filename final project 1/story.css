@@ -1,0 +1,44 @@
+/* ====== Our Story Page Specific Styles ====== */
+main section {
+  background-color: #fff;
+  margin-bottom: 30px;
+  padding: 25px 30px;
+  border-left: 5px solid #a67c52;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.04);
+}
+
+main section h2 {
+  font-size: 1.8rem;
+  color: #6b4c35;
+  margin-bottom: 12px;
+}
+
+main section p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+main section ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+main section ul li {
+  margin-bottom: 10px;
+  list-style-type: square;
+  color: #333;
+  font-size: 1rem;
+}
+
+/* Optional: Quote/Testimonial Styling */
+.quote-block {
+  font-style: italic;
+  background-color: #fdf6f0;
+  border-left: 4px solid #a67c52;
+  padding: 15px 20px;
+  margin: 30px auto;
+  max-width: 700px;
+  font-size: 1.1rem;
+  color: #4a3a2c;
+}
